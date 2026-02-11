@@ -1,0 +1,16 @@
+{
+    "name": "Cozy.Builder.Hexagons",
+    "rootNamespace": "Cozy.Builder.Hexagons",
+    "references": [
+        "GUID:7b1d5dca2529ea1eb847069eb639d4f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
