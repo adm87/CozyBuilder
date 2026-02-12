@@ -1,0 +1,16 @@
+{
+    "name": "Cozy.Builder.Camera",
+    "rootNamespace": "Cozy.Builder.Camera",
+    "references": [
+        "GUID:98728e48b6c1b3a1aaf2a358de65ac65"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

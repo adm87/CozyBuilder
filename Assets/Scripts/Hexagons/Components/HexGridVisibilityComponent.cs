@@ -3,7 +3,7 @@ namespace Cozy.Builder.Hexagons.Components
     using Cozy.Hexagons;
     using UnityEngine;
 
-    public class HexGridDataComponent : MonoBehaviour
+    public class HexGridVisibilityComponent : MonoBehaviour
     {
         [SerializeField]
         private RenderTexture dataTexture;
