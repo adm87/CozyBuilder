@@ -2,7 +2,10 @@ namespace Cozy.Builder.Camera
 {
     using Cozy.Builder.Messaging;
     using Cozy.Builder.Messaging.Messages;
+    using Cozy.Builder.Utility;
+    using NUnit.Framework;
     using UnityEngine;
+    using UnityEngine.AI;
 
     public class CameraPanComponent : MonoBehaviour,
         IMessageReceiver<InputMessage>
@@ -10,10 +13,15 @@ namespace Cozy.Builder.Camera
         [SerializeField]
         private LayerMask inputMask;
 
-        private Vector2? inputPosition;
-        private Vector2 lastInputPosition;
+        [SerializeField]
+        private Volume panBounds;
+
+        private Vector3? panStartPosition;
+
+        private Vector3 targetPosition;
 
         private bool shouldPan = false;
+        private bool shouldRotate = false;
 
         private void OnEnable()
         {
@@ -27,13 +35,80 @@ namespace Cozy.Builder.Camera
 
         private void LateUpdate()
         {
-            
+            PanCamera();
         }
 
         public void OnMessageReceived(InputMessage message)
         {
+            // Note: Panning takes priority over rotating, so if both are active, only panning will occur.
+
             shouldPan = message.IsMoving;
-            inputPosition = message.MovePosition;
+            shouldRotate = message.IsAltTouching && !shouldPan;
+            
+            if (shouldPan)
+            {
+                if (message.MoveDelta == Vector2.zero)
+                    return;
+
+                if (panStartPosition == null)
+                {
+                    if (FindWorldPosition(message.MovePosition.Value, out Vector3 down))
+                    {
+                        panStartPosition = down;
+                        targetPosition = transform.position;
+                    }
+
+                    return;
+                }
+
+                if (FindWorldPosition(message.MovePosition.Value, out Vector3 current))
+                {
+                    Vector3 delta = current - panStartPosition.Value;
+                    targetPosition = ClampPosition(transform.position - delta);
+                }
+            }
+            else
+            {
+                panStartPosition = null;
+            }
+        }
+
+        private bool FindWorldPosition(Vector2 screenPosition, out Vector3 worldPosition)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(screenPosition);
+            if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, inputMask))
+            {
+                worldPosition = hit.point;
+                return true;
+            }
+
+            worldPosition = Vector3.zero;
+            return false;
+        }
+
+        private void PanCamera()
+        {
+            if (targetPosition == transform.position)
+                return;
+
+            var position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * 10f);
+
+            if (Vector3.Distance(position, targetPosition) < 0.01f)
+                position = targetPosition;
+
+            transform.position = position;
+        }
+        
+        private Vector3 ClampPosition(Vector3 position)
+        {
+            var min = panBounds.transform.position - panBounds.Size / 2f;
+            var max = panBounds.transform.position + panBounds.Size / 2f;
+
+            position.x = Mathf.Clamp(position.x, min.x, max.x);
+            position.y = Mathf.Clamp(position.y, min.y, max.y);
+            position.z = Mathf.Clamp(position.z, min.z, max.z);
+
+            return position;
         }
     }
 }

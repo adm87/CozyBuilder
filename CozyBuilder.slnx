@@ -1,5 +1,7 @@
 ﻿<Solution>
+  <Project Path="CustomToolbar.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Cozy.Builder.Utility.csproj" />
   <Project Path="Cozy.Builder.Hexagons.csproj" />
   <Project Path="Cozy.Builder.Input.csproj" />
   <Project Path="Assembly-CSharp.csproj" />

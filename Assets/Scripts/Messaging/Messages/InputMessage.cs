@@ -9,6 +9,7 @@ namespace Cozy.Builder.Messaging.Messages
         public Vector2? MovePosition;
         public Vector2 MoveDelta;
         public bool IsTouching;
+        public bool IsAltTouching;
         public bool IsMoving;
     }
 }

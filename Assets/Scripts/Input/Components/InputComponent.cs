@@ -31,12 +31,16 @@ namespace Cozy.Builder.Input.Components
 
         private void Update()
         {
+            // Note: AltTouch is specifically for mouse input, to indicate the right mouse button.
+
             var touched = _inputActions.Player.Touch.IsPressed();
+            var altTouched = _inputActions.Player.AltTouch.IsPressed();
             var position = _inputActions.Player.Position.ReadValue<Vector2>();
 
-            if (touched)
+            if (touched || altTouched)
             {
-                message.IsTouching = true;
+                message.IsTouching = touched;
+                message.IsAltTouching = altTouched;
 
                 if (message.DownPosition == null)
                 {
@@ -56,13 +60,14 @@ namespace Cozy.Builder.Input.Components
             }
             else
             {
-                var wasTouching = message.IsTouching;
+                var wasTouching = message.IsTouching || message.IsAltTouching;
 
                 Clear();
 
                 if (wasTouching)
                 {
                     message.IsTouching = false;
+                    message.IsAltTouching = false;
                     Messenger.Publish(message);
                 }
             }
@@ -73,6 +78,7 @@ namespace Cozy.Builder.Input.Components
             message.DownPosition = null;
             message.MovePosition = null;
             message.IsTouching = false;
+            message.IsAltTouching = false;
             message.IsMoving = false;
             message.MoveDelta = Vector2.zero;
         }

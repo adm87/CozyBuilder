@@ -111,6 +111,15 @@ namespace Cozy.Builder.Input
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""AltTouch"",
+                    ""type"": ""Button"",
+                    ""id"": ""188c7557-4204-433e-96f8-3d504e5070d7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -155,6 +164,17 @@ namespace Cozy.Builder.Input
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""44b5bca2-3650-4580-b407-29e8f2f0c5e4"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AltTouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -228,6 +248,7 @@ namespace Cozy.Builder.Input
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Touch = m_Player.FindAction("Touch", throwIfNotFound: true);
             m_Player_Position = m_Player.FindAction("Position", throwIfNotFound: true);
+            m_Player_AltTouch = m_Player.FindAction("AltTouch", throwIfNotFound: true);
         }
 
         ~@InputSystem_Actions()
@@ -310,6 +331,7 @@ namespace Cozy.Builder.Input
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Touch;
         private readonly InputAction m_Player_Position;
+        private readonly InputAction m_Player_AltTouch;
         /// <summary>
         /// Provides access to input actions defined in input action map "Player".
         /// </summary>
@@ -329,6 +351,10 @@ namespace Cozy.Builder.Input
             /// Provides access to the underlying input action "Player/Position".
             /// </summary>
             public InputAction @Position => m_Wrapper.m_Player_Position;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/AltTouch".
+            /// </summary>
+            public InputAction @AltTouch => m_Wrapper.m_Player_AltTouch;
             /// <summary>
             /// Provides access to the underlying input action map instance.
             /// </summary>
@@ -361,6 +387,9 @@ namespace Cozy.Builder.Input
                 @Position.started += instance.OnPosition;
                 @Position.performed += instance.OnPosition;
                 @Position.canceled += instance.OnPosition;
+                @AltTouch.started += instance.OnAltTouch;
+                @AltTouch.performed += instance.OnAltTouch;
+                @AltTouch.canceled += instance.OnAltTouch;
             }
 
             /// <summary>
@@ -378,6 +407,9 @@ namespace Cozy.Builder.Input
                 @Position.started -= instance.OnPosition;
                 @Position.performed -= instance.OnPosition;
                 @Position.canceled -= instance.OnPosition;
+                @AltTouch.started -= instance.OnAltTouch;
+                @AltTouch.performed -= instance.OnAltTouch;
+                @AltTouch.canceled -= instance.OnAltTouch;
             }
 
             /// <summary>
@@ -497,6 +529,13 @@ namespace Cozy.Builder.Input
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnPosition(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "AltTouch" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnAltTouch(InputAction.CallbackContext context);
         }
     }
 }
