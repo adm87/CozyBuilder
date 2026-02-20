@@ -1,7 +1,7 @@
-using UnityEngine;
-
 namespace Cozy.Builder.Messaging.Messages
 {
+    using UnityEngine;
+
     [System.Serializable]
     public struct InputMessage    
     {

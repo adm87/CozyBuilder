@@ -3,10 +3,13 @@ namespace Cozy.Builder.Hexagons.Components
     using Cozy.Hexagons;
     using UnityEngine;
 
-    public class HexGridVisibilityComponent : MonoBehaviour
+    public class HexGridViewComponent : MonoBehaviour
     {
         [SerializeField]
         private RenderTexture dataTexture;
+
+        [SerializeField]
+        private MeshRenderer gridRenderer;
 
         private Texture2D whitePixel;
 
@@ -21,24 +24,8 @@ namespace Cozy.Builder.Hexagons.Components
             blackPixel = new Texture2D(1, 1);
             blackPixel.SetPixel(0, 0, Color.black);
             blackPixel.Apply();
-        }
 
-        private void Start()
-        {
             ClearDataTexture();
-
-            Hexagon origin = new Hexagon(0, 0);
-            SetHexData(origin, true);
-
-            foreach (var neighbor in HexagonMath.AxialNeighbors)
-            {
-                var offset = neighbor;
-                
-                int q = origin.Q + offset.x;
-                int r = origin.R + offset.y;
-
-                SetHexData(new Hexagon(q, r), true);
-            }
         }
 
         private void OnDestroy()
@@ -58,7 +45,34 @@ namespace Cozy.Builder.Hexagons.Components
             RenderTexture.active = null;
         }
 
-        public void SetHexData(Hexagon hexagon, bool isActive)
+        public void SetOrientation(HexagonOrientation orientation)
+        {
+                if (gridRenderer == null) return;
+
+                float orientationValue = orientation switch
+                {
+                    HexagonOrientation.PointyTop => 0f,
+                    HexagonOrientation.FlatTop => 1f,
+                    _ => 0f
+                };
+    
+                var block = new MaterialPropertyBlock();
+                gridRenderer.GetPropertyBlock(block);
+                block.SetFloat("_Orientation", orientationValue);
+                gridRenderer.SetPropertyBlock(block);
+        }
+
+        public void SetHexRadius(float radius)
+        {
+            if (gridRenderer == null) return;
+
+            var block = new MaterialPropertyBlock();
+            gridRenderer.GetPropertyBlock(block);
+            block.SetFloat("_HexRadius", radius);
+            gridRenderer.SetPropertyBlock(block);
+        }
+
+        public void ToggleHexagon(Hexagon hexagon, bool isActive)
         {
             if (dataTexture == null) return;
 

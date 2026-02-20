@@ -3,9 +3,7 @@ namespace Cozy.Builder.Camera
     using Cozy.Builder.Messaging;
     using Cozy.Builder.Messaging.Messages;
     using Cozy.Builder.Utility;
-    using NUnit.Framework;
     using UnityEngine;
-    using UnityEngine.AI;
 
     public class CameraPanComponent : MonoBehaviour,
         IMessageReceiver<InputMessage>
@@ -14,7 +12,7 @@ namespace Cozy.Builder.Camera
         private LayerMask inputMask;
 
         [SerializeField]
-        private Volume panBounds;
+        private VolumeComponent bounds;
 
         private Vector3? panStartPosition;
 
@@ -64,7 +62,7 @@ namespace Cozy.Builder.Camera
                 if (FindWorldPosition(message.MovePosition.Value, out Vector3 current))
                 {
                     Vector3 delta = current - panStartPosition.Value;
-                    targetPosition = ClampPosition(transform.position - delta);
+                    targetPosition = bounds.ContainmentClamp(transform.position - delta);
                 }
             }
             else
@@ -97,18 +95,6 @@ namespace Cozy.Builder.Camera
                 position = targetPosition;
 
             transform.position = position;
-        }
-        
-        private Vector3 ClampPosition(Vector3 position)
-        {
-            var min = panBounds.transform.position - panBounds.Size / 2f;
-            var max = panBounds.transform.position + panBounds.Size / 2f;
-
-            position.x = Mathf.Clamp(position.x, min.x, max.x);
-            position.y = Mathf.Clamp(position.y, min.y, max.y);
-            position.z = Mathf.Clamp(position.z, min.z, max.z);
-
-            return position;
         }
     }
 }
