@@ -2,6 +2,7 @@
     "name": "Cozy.Builder.Hexagons",
     "rootNamespace": "Cozy.Builder.Hexagons",
     "references": [
+        "GUID:308ac7f5f918b128a965473a3288153a",
         "GUID:7b1d5dca2529ea1eb847069eb639d4f6"
     ],
     "includePlatforms": [],

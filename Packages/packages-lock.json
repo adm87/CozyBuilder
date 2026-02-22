@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ba71e12939f1a7bb934e92d489e5710de1a6f0d8"
+      "hash": "4b32649ad2eea97459bc19ac2c193331c76abb66"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.10",
@@ -62,7 +62,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.26",
+      "version": "2.0.27",
       "depth": 0,
       "source": "registry",
       "dependencies": {

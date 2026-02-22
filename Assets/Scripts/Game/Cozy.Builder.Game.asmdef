@@ -3,6 +3,7 @@
     "rootNamespace": "Cozy.Builder.Game",
     "references": [
         "GUID:c359ef4b8a61e6622a4d29600566537d",
+        "GUID:98728e48b6c1b3a1aaf2a358de65ac65",
         "GUID:308ac7f5f918b128a965473a3288153a",
         "GUID:7b1d5dca2529ea1eb847069eb639d4f6"
     ],

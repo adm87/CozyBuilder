@@ -1,6 +1,5 @@
 namespace Cozy.Builder.Game.Components
 {
-    using System;
     using Cozy.Builder.Hexagons.Components;
     using Cozy.Builder.Utility;
     using Cozy.Hexagons;
@@ -18,13 +17,14 @@ namespace Cozy.Builder.Game.Components
         private HexGridViewComponent hexView;
 
         [SerializeField]
-        private VolumeComponent gridBounds;
+        private VolumeComponent bounds;
 
         private GameBoard gameBoard;
 
         private void Awake()
         {
             gameBoard = new GameBoard(orientation, hexRadius);
+
             hexView.SetOrientation(orientation);
             hexView.SetHexRadius(hexRadius);
         }
@@ -35,6 +35,7 @@ namespace Cozy.Builder.Game.Components
 
             ActivateCell(zero);
             PlaceTile(zero);
+            AdjustBounds();
         }
 
         /// <summary>
@@ -77,28 +78,27 @@ namespace Cozy.Builder.Game.Components
             }
         }
 
-        private void AdjustGridBounds()
+        private void AdjustBounds()
         {
-            var min = new Vector3(float.PositiveInfinity, float.PositiveInfinity, float.PositiveInfinity);
-            var max = new Vector3(float.NegativeInfinity, float.NegativeInfinity, float.NegativeInfinity);
+            var min = new Vector3(float.MaxValue, 0f, float.MaxValue);
+            var max = new Vector3(float.MinValue, 0f, float.MinValue);
 
             gameBoard.Grid.ForEach(hexagon =>
             {
-                var (x, y) = HexagonMath.FromHex[orientation](hexagon, hexRadius);
-                var world = new Vector3(x, 0f, y);
-                var local = gridBounds.transform.InverseTransformPoint(world);
+                var (x, y) = HexagonMath.FromHex(hexagon.Q, hexagon.R, gameBoard.HexRadius, gameBoard.Orientation);
+                var position = bounds.transform.InverseTransformPoint(new Vector3(x, 0f, y));
 
-                min = Vector3.Min(min, local);
-                max = Vector3.Max(max, local);
+                min = Vector3.Min(min, position);
+                max = Vector3.Max(max, position);
+
                 return true;
             });
 
             var size = max - min;
-            var center = min + (size / 2f);
-            center = gridBounds.transform.TransformPoint(center);
+            var center = bounds.transform.TransformPoint((max + min) / 2f);
 
-            gridBounds.SetSize(size);
-            gridBounds.SetCenter(center);
+            bounds.SetSize(size);
+            bounds.SetCenter(center);
         }
     }
 }
