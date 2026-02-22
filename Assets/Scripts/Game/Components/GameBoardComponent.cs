@@ -78,6 +78,9 @@ namespace Cozy.Builder.Game.Components
             }
         }
 
+        /// <summary>
+        /// AdjustBounds calculates the minimum bounding box that contains all active hexagons on the grid and updates the bounds component accordingly.
+        /// </summary>
         private void AdjustBounds()
         {
             var min = new Vector3(float.MaxValue, 0f, float.MaxValue);

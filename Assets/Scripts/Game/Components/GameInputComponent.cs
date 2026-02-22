@@ -1,28 +1,30 @@
 namespace Cozy.Builder.Game.Components
 {
+    using Cozy.Builder.Game.Components.InputStates;
     using Cozy.Builder.Messaging;
     using Cozy.Builder.Messaging.Messages;
     using Cozy.Builder.Utility;
+    using Cozy.Builder.Utility.Components;
     using UnityEngine;
 
-    public class GameInputComponent : MonoBehaviour,
-        IMessageReceiver<InputMessage>
+    public class GameInputComponent : MonoStateMachine<GameInputComponent>,
+        IMessageReceiver<EnterGameStateMessage>
     {
         [SerializeField]
         private LayerMask inputMask;
 
+        public LayerMask InputMask => inputMask;
+
         [SerializeField]
         private GameObject gameCamera;
+
+        public GameObject GameCamera => gameCamera;
 
         [SerializeField]
         private VolumeComponent bounds;
 
-        private Vector3? dragAnchor;
-
-        private Vector3 dragPosition;
-
-        private bool shouldDrag = false;
-
+        public VolumeComponent Bounds => bounds;
+        
         private void OnEnable()
         {
             Messenger.Subscribe(this);
@@ -33,63 +35,17 @@ namespace Cozy.Builder.Game.Components
             Messenger.Unsubscribe(this);
         }
 
-        private void LateUpdate()
+        public void OnMessageReceived(EnterGameStateMessage message)
         {
-            UpdateCameraPosition();
-        }
-
-        public void OnMessageReceived(InputMessage message)
-        {
-            shouldDrag = message.IsMoving;
-            
-            if (shouldDrag)
+            switch (message.StateName)
             {
-                if (FindWorldPosition(message.MovePosition.Value, out Vector3 world))
-                {
-                    if (dragAnchor == null)
-                    {
-                        dragAnchor = world;
-                        dragPosition = gameCamera.transform.position;
-                    }
-
-                    var worldOffset = dragAnchor.Value - world;
-                    var targetPosition = gameCamera.transform.position + worldOffset;
-
-                    dragPosition = bounds.ContainmentClamp(targetPosition);
-                }
+                case GameStates.Gameplay:
+                    EnterState<GameplayInputState>(this);
+                    break;
+                default:
+                    ExitState(this);
+                    break;
             }
-            else
-            {
-                dragAnchor = null;
-            }
-        }
-
-        private bool FindWorldPosition(Vector2 screenPosition, out Vector3 worldPosition)
-        {
-            Ray ray = Camera.main.ScreenPointToRay(screenPosition);
-            if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, inputMask))
-            {
-                worldPosition = hit.point;
-                return true;
-            }
-
-            worldPosition = Vector3.zero;
-            return false;
-        }
-
-        private void UpdateCameraPosition()
-        {
-            var position = gameCamera.transform.position;
-
-            if (position == dragPosition)
-                return;
-
-            position = Vector3.Lerp(position, dragPosition, Time.deltaTime * 15f);
-
-            if (Vector3.Distance(position, dragPosition) < 0.01f)
-                position = dragPosition;
-
-            gameCamera.transform.position = position;
         }
     }
 }
