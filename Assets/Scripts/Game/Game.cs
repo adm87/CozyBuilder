@@ -15,7 +15,7 @@ namespace Cozy.Builder.Game
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void PostInitialize()
         {
-            Messenger.Publish(new EnterGameStateMessage { StateName = GameStates.Gameplay });
+            Messenger.Publish(new EnterGameStateMessage { StateName = GameStates.GameplayDefault });
         }
     }
 }

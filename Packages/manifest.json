@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.adm87.cozy.hexagons": "https://github.com/adm87/CozyHexagons.git",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.ide.rider": "3.0.39",

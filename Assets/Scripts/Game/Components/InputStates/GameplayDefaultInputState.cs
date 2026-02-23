@@ -6,7 +6,7 @@ namespace Cozy.Builder.Game.Components.InputStates
     using Cozy.Builder.Utility.Components;
     using UnityEngine;
 
-    public class GameplayInputState : IMonoState<GameInputComponent>,
+    public class GameplayDefaultState : IMonoState<GameInputComponent>,
         IMessageReceiver<InputMessage>
     {
         private Vector3? dragAnchor;

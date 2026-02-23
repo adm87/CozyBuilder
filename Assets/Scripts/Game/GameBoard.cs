@@ -1,9 +1,6 @@
 namespace Cozy.Builder.Game
 {
-    using System.Collections.Generic;
-    using Cozy.Builder.Hexagons;
     using Cozy.Hexagons;
-    using UnityEngine;
     using GameTiles = System.Collections.Generic.HashSet<long>;
 
     public class GameBoard

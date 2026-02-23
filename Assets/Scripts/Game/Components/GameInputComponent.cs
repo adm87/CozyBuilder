@@ -39,8 +39,11 @@ namespace Cozy.Builder.Game.Components
         {
             switch (message.StateName)
             {
-                case GameStates.Gameplay:
-                    EnterState<GameplayInputState>(this);
+                case GameStates.GameplayDefault:
+                    EnterState<GameplayDefaultState>(this);
+                    break;
+                case GameStates.GameplayPlacement:
+                    EnterState<GameplayPlacementState>(this);
                     break;
                 default:
                     ExitState(this);

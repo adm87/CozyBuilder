@@ -1,0 +1,3587 @@
+fileFormatVersion: 2
+guid: 98cbccdc4300619d3b9b143732daa5fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3716564959478114100
+    second: banner_classic_curtainimg
+  - first:
+      213: -161919483145049904
+    second: banner_hangingimg
+  - first:
+      213: 3531188577234216908
+    second: banner_modernimg
+  - first:
+      213: -7916422923778571064
+    second: button_brown_closeimg
+  - first:
+      213: -2754962584426161868
+    second: button_brownimg
+  - first:
+      213: -1643315147779196883
+    second: button_grey_closeimg
+  - first:
+      213: 5704262227281741530
+    second: button_greyimg
+  - first:
+      213: 8413375207930858830
+    second: button_red_closeimg
+  - first:
+      213: 3718448348071581660
+    second: button_redimg
+  - first:
+      213: -7423756233499625986
+    second: checkbox_beige_checkedimg
+  - first:
+      213: 2561722350161200157
+    second: checkbox_beige_crossimg
+  - first:
+      213: 3773288166690946574
+    second: checkbox_beige_emptyimg
+  - first:
+      213: 2813931657658375849
+    second: checkbox_brown_checkedimg
+  - first:
+      213: -6399593042492320650
+    second: checkbox_brown_crossimg
+  - first:
+      213: 1305911445040741903
+    second: checkbox_brown_emptyimg
+  - first:
+      213: -9193199646180168943
+    second: checkbox_grey_checkedimg
+  - first:
+      213: 386326902785083998
+    second: checkbox_grey_crossimg
+  - first:
+      213: 6119431543070366433
+    second: checkbox_grey_emptyimg
+  - first:
+      213: 8119130395601613246
+    second: hexagon_brown_darkimg
+  - first:
+      213: -1009136728568442208
+    second: hexagon_brownimg
+  - first:
+      213: -2069619984859414959
+    second: hexagon_damaged_brown_darkimg
+  - first:
+      213: 6358637645604708033
+    second: hexagon_damaged_brownimg
+  - first:
+      213: -5063312318240190891
+    second: hexagon_grey_darkimg
+  - first:
+      213: 2584895794133879642
+    second: hexagon_grey_greenimg
+  - first:
+      213: -2345383997668368612
+    second: hexagon_grey_redimg
+  - first:
+      213: 7500306316039767049
+    second: hexagon_greyimg
+  - first:
+      213: -7554427156457737847
+    second: minimap_arrow_aimg
+  - first:
+      213: -1106927726765689865
+    second: minimap_arrow_bimg
+  - first:
+      213: 3602976526314130381
+    second: minimap_arrow_cimg
+  - first:
+      213: 7245057529417960121
+    second: minimap_arrow_dimg
+  - first:
+      213: -859784794080082976
+    second: minimap_compass_future_eimg
+  - first:
+      213: -8720285343444122860
+    second: minimap_compass_future_nimg
+  - first:
+      213: -7948960842042250204
+    second: minimap_compass_future_simg
+  - first:
+      213: -7859163565101920975
+    second: minimap_compass_future_wimg
+  - first:
+      213: 291039561902091300
+    second: minimap_compass_toon_eimg
+  - first:
+      213: 8020253346447336985
+    second: minimap_compass_toon_nimg
+  - first:
+      213: -8352024240220443039
+    second: minimap_compass_toon_simg
+  - first:
+      213: -1667629808660371612
+    second: minimap_compass_toon_wimg
+  - first:
+      213: 6320133693416560455
+    second: minimap_icon_exclamation_redimg
+  - first:
+      213: -738379755255685559
+    second: minimap_icon_exclamation_whiteimg
+  - first:
+      213: -3228747887415983147
+    second: minimap_icon_exclamation_yellowimg
+  - first:
+      213: -7512389691883773904
+    second: minimap_icon_jewel_redimg
+  - first:
+      213: -8899744085354664667
+    second: minimap_icon_jewel_whiteimg
+  - first:
+      213: -5639805357538633624
+    second: minimap_icon_jewel_yellowimg
+  - first:
+      213: 7602164770359779468
+    second: minimap_icon_star_redimg
+  - first:
+      213: 8235402889021310230
+    second: minimap_icon_star_whiteimg
+  - first:
+      213: 9132706393619432898
+    second: minimap_icon_star_yellowimg
+  - first:
+      213: 4356189687337487990
+    second: minimap_ring_brown_detailimg
+  - first:
+      213: -1084347219895412925
+    second: minimap_ring_brownimg
+  - first:
+      213: -491365909051164997
+    second: minimap_ring_grey_detailimg
+  - first:
+      213: 3987700718768259813
+    second: minimap_ring_greyimg
+  - first:
+      213: -2675329605205634272
+    second: minimap_ring_whiteimg
+  - first:
+      213: 6331542963033697653
+    second: panel_border_brown_detailimg
+  - first:
+      213: 5926519438553030874
+    second: panel_border_brownimg
+  - first:
+      213: 904030631723210074
+    second: panel_border_grey_detailimg
+  - first:
+      213: 8590859891034237369
+    second: panel_border_greyimg
+  - first:
+      213: -277555085498909665
+    second: panel_brown_arrows_dark_detailimg
+  - first:
+      213: -7628071103975371021
+    second: panel_brown_arrows_darkimg
+  - first:
+      213: 4906282317754954165
+    second: panel_brown_arrows_detailimg
+  - first:
+      213: 285369905560893860
+    second: panel_brown_arrowsimg
+  - first:
+      213: 6511927525611209493
+    second: panel_brown_corners_aimg
+  - first:
+      213: 1340123003422321192
+    second: panel_brown_corners_bimg
+  - first:
+      213: -6179695486180478962
+    second: panel_brown_damaged_darkimg
+  - first:
+      213: 7722959291055625792
+    second: panel_brown_damagedimg
+  - first:
+      213: -2222917791310003562
+    second: panel_brown_dark_corners_aimg
+  - first:
+      213: 1070862060703596303
+    second: panel_brown_dark_corners_bimg
+  - first:
+      213: -8574478594847132382
+    second: panel_brown_darkimg
+  - first:
+      213: 3121332401226359951
+    second: panel_brownimg
+  - first:
+      213: -162933724136816096
+    second: panel_grey_blueimg
+  - first:
+      213: -3830713247846881075
+    second: panel_grey_bolts_blueimg
+  - first:
+      213: 2340952409699305935
+    second: panel_grey_bolts_darkimg
+  - first:
+      213: 5553280098166081019
+    second: panel_grey_bolts_detail_aimg
+  - first:
+      213: -505471468554578311
+    second: panel_grey_bolts_detail_bimg
+  - first:
+      213: 7372386521489369682
+    second: panel_grey_bolts_greenimg
+  - first:
+      213: -3016831617417986331
+    second: panel_grey_bolts_redimg
+  - first:
+      213: 8040468326672047943
+    second: panel_grey_boltsimg
+  - first:
+      213: -5124826125298489149
+    second: panel_grey_darkimg
+  - first:
+      213: 7017934452594368961
+    second: panel_grey_greenimg
+  - first:
+      213: -1456495215578187430
+    second: panel_grey_redimg
+  - first:
+      213: 6787134990055840730
+    second: panel_greyimg
+  - first:
+      213: -1078004658590192678
+    second: panel_grid_blueprintimg
+  - first:
+      213: -4942871799677151671
+    second: panel_grid_paperimg
+  - first:
+      213: 248178662910694073
+    second: pattern_diagonal_grey_largeimg
+  - first:
+      213: 4071943382205755338
+    second: pattern_diagonal_grey_smallimg
+  - first:
+      213: -8938000607099678675
+    second: pattern_diagonal_red_largeimg
+  - first:
+      213: 4299316937624221754
+    second: pattern_diagonal_red_smallimg
+  - first:
+      213: 28627952319087182
+    second: pattern_diagonal_transparent_largeimg
+  - first:
+      213: 2286776043728173674
+    second: pattern_diagonal_transparent_smallimg
+  - first:
+      213: 1226828518008106076
+    second: pattern_grid_blueprintimg
+  - first:
+      213: -8656842829922414941
+    second: pattern_grid_paperimg
+  - first:
+      213: 7161337307462067594
+    second: progress_blue_borderimg
+  - first:
+      213: 2191733210666281432
+    second: progress_blue_small_borderimg
+  - first:
+      213: 3025518491557274795
+    second: progress_blue_smallimg
+  - first:
+      213: 7961186113998543886
+    second: progress_blueimg
+  - first:
+      213: 8757007026718347858
+    second: progress_green_borderimg
+  - first:
+      213: 8550777582771395511
+    second: progress_green_small_borderimg
+  - first:
+      213: 3715100019556545884
+    second: progress_green_smallimg
+  - first:
+      213: -6955637627714785034
+    second: progress_greenimg
+  - first:
+      213: -4156898504521543392
+    second: progress_red_borderimg
+  - first:
+      213: 4731872615323306983
+    second: progress_red_small_borderimg
+  - first:
+      213: -3027164310017832597
+    second: progress_red_smallimg
+  - first:
+      213: 3516454795789190261
+    second: progress_redimg
+  - first:
+      213: -8293752120567263912
+    second: progress_transparent_smallimg
+  - first:
+      213: 7489941164222258145
+    second: progress_transparentimg
+  - first:
+      213: -1074184537904867829
+    second: progress_white_borderimg
+  - first:
+      213: 970995726186319371
+    second: progress_white_small_borderimg
+  - first:
+      213: -7816407625639155032
+    second: progress_white_smallimg
+  - first:
+      213: 444485806091657768
+    second: progress_whiteimg
+  - first:
+      213: -2915168938569276548
+    second: round_brown_darkimg
+  - first:
+      213: 7809120918125906290
+    second: round_brownimg
+  - first:
+      213: 4625667811607664821
+    second: round_damaged_brown_darkimg
+  - first:
+      213: -3474319537022078229
+    second: round_damaged_brownimg
+  - first:
+      213: -3290317362248725668
+    second: round_grey_darkimg
+  - first:
+      213: 2039010823383580652
+    second: round_grey_detailed_greenimg
+  - first:
+      213: -5912472070082329098
+    second: round_grey_detailed_redimg
+  - first:
+      213: -945126140294530806
+    second: round_greyimg
+  - first:
+      213: 4413139525766666580
+    second: scrollbar_brown_smallimg
+  - first:
+      213: 3950702640100980055
+    second: scrollbar_brownimg
+  - first:
+      213: -1819760857301617337
+    second: scrollbar_future_grey_smallimg
+  - first:
+      213: -6475752250732427431
+    second: scrollbar_future_greyimg
+  - first:
+      213: 8704264307817723785
+    second: scrollbar_future_red_smallimg
+  - first:
+      213: 521660864634747251
+    second: scrollbar_future_redimg
+  - first:
+      213: -5065915723466705867
+    second: scrollbar_future_transparent_smallimg
+  - first:
+      213: -7158096975520075179
+    second: scrollbar_future_transparentimg
+  - first:
+      213: -8142704073990926296
+    second: scrollbar_grey_smallimg
+  - first:
+      213: -9147750920958256051
+    second: scrollbar_greyimg
+  - first:
+      213: 2586102418630475538
+    second: scrollbar_transparent_smallimg
+  - first:
+      213: 7047942271826151723
+    second: scrollbar_transparentimg
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: banner_classic_curtainimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4376b52b324e39330800000000000000
+      internalID: 3716564959478114100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banner_hangingimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8ace4861fb0cdf0800000000000000
+      internalID: -161919483145049904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banner_modernimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 512
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc766fc4d4d410130800000000000000
+      internalID: 3531188577234216908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_brown_closeimg
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c44b683b47332290800000000000000
+      internalID: -7916422923778571064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_brownimg
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43959c9302864c9d0800000000000000
+      internalID: -2754962584426161868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_grey_closeimg
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d283a9a6495c139e0800000000000000
+      internalID: -1643315147779196883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_greyimg
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad68ec2f54c992f40800000000000000
+      internalID: 5704262227281741530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_red_closeimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d0cc6fc2052c470800000000000000
+      internalID: 8413375207930858830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_redimg
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7d17642159a9330800000000000000
+      internalID: 3718448348071581660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_beige_checkedimg
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b923d90589f890800000000000000
+      internalID: -7423756233499625986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_beige_crossimg
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d148986a7e01d8320800000000000000
+      internalID: 2561722350161200157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_beige_emptyimg
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7cca88996d5430800000000000000
+      internalID: 3773288166690946574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_brown_checkedimg
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae14fc0fe71d0720800000000000000
+      internalID: 2813931657658375849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_brown_crossimg
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6741f2bc8041037a0800000000000000
+      internalID: -6399593042492320650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_brown_emptyimg
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e35cd4a878f1210800000000000000
+      internalID: 1305911445040741903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_grey_checkedimg
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b2f2421a13b6080800000000000000
+      internalID: -9193199646180168943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_grey_crossimg
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a8eaf65428c5500800000000000000
+      internalID: 386326902785083998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkbox_grey_emptyimg
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea9708f0969ce450800000000000000
+      internalID: 6119431543070366433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_brown_darkimg
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 176
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb139eae312fca070800000000000000
+      internalID: 8119130395601613246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_brownimg
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 48
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2d0e3fd73def1f0800000000000000
+      internalID: -1009136728568442208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_damaged_brown_darkimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 176
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15eb76ec69b3743e0800000000000000
+      internalID: -2069619984859414959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_damaged_brownimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 48
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ced1b9cf3b6e3850800000000000000
+      internalID: 6358637645604708033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_grey_darkimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 816
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e0f6ce5408bb9b0800000000000000
+      internalID: -5063312318240190891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_grey_greenimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 688
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b40c687056fd320800000000000000
+      internalID: 2584895794133879642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_grey_redimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1072
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f57153ea5837fd0800000000000000
+      internalID: -2345383997668368612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagon_greyimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 944
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9044b2a2bd0761860800000000000000
+      internalID: 7500306316039767049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_arrow_aimg
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981b5c9b688492790800000000000000
+      internalID: -7554427156457737847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_arrow_bimg
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3b916e81763a0f0800000000000000
+      internalID: -1106927726765689865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_arrow_cimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 864
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb4601bf08500230800000000000000
+      internalID: 3602976526314130381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_arrow_dimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba0a32ef6d9b8460800000000000000
+      internalID: 7245057529417960121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_future_eimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 428
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3039df84e6114f0800000000000000
+      internalID: -859784794080082976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_future_nimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 516
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413c7f3aea25bf680800000000000000
+      internalID: -8720285343444122860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_future_simg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 472
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce494ca3e9fa190800000000000000
+      internalID: -7948960842042250204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_future_wimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 384
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d486e8064aee290800000000000000
+      internalID: -7859163565101920975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_toon_eimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 344
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c62c680faf90400800000000000000
+      internalID: 291039561902091300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_toon_nimg
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 8
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916a1abece9ad4f60800000000000000
+      internalID: 8020253346447336985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_toon_simg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 200
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e65365436a71c80800000000000000
+      internalID: -8352024240220443039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_compass_toon_wimg
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 8
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46722f546836bd8e0800000000000000
+      internalID: -1667629808660371612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_exclamation_redimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 832
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7475211db10a5b750800000000000000
+      internalID: 6320133693416560455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_exclamation_whiteimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 800
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e15a2568fb0c5f0800000000000000
+      internalID: -738379755255685559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_exclamation_yellowimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3074d27ee2133d0800000000000000
+      internalID: -3228747887415983147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_jewel_redimg
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03026f8a061aeb790800000000000000
+      internalID: -7512389691883773904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_jewel_whiteimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d2d8048e1cd7480800000000000000
+      internalID: -8899744085354664667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_jewel_yellowimg
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868909588e26bb1b0800000000000000
+      internalID: -5639805357538633624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_star_redimg
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80a845a490508960800000000000000
+      internalID: 7602164770359779468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_star_whiteimg
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61547566b470a4270800000000000000
+      internalID: 8235402889021310230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_icon_star_yellowimg
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c500ade314edbe70800000000000000
+      internalID: 9132706393619432898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_ring_brown_detailimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e88f7c07b447c30800000000000000
+      internalID: 4356189687337487990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_ring_brownimg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34793f8d2ff93f0f0800000000000000
+      internalID: -1084347219895412925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_ring_grey_detailimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6b4402f415e29f0800000000000000
+      internalID: -491365909051164997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_ring_greyimg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e280cc0da8275730800000000000000
+      internalID: 3987700718768259813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minimap_ring_whiteimg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 592
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023d1a806e15fdad0800000000000000
+      internalID: -2675329605205634272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_border_brown_detailimg
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d6fb767c82ed750800000000000000
+      internalID: 6331542963033697653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_border_brownimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 48
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a661870a3f3250800000000000000
+      internalID: 5926519438553030874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_border_grey_detailimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1072
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a551fedd113cb8c00800000000000000
+      internalID: 904030631723210074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_border_greyimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 944
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b92f38fd8dd83770800000000000000
+      internalID: 8590859891034237369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_arrows_dark_detailimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 816
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cfb3bce1de52cf0800000000000000
+      internalID: -277555085498909665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_arrows_darkimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 688
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe40260fb5a32690800000000000000
+      internalID: -7628071103975371021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_arrows_detailimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1709df5cd961440800000000000000
+      internalID: 4906282317754954165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_arrowsimg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a93b8aca66d5f300800000000000000
+      internalID: 285369905560893860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_corners_aimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513052735930f5a50800000000000000
+      internalID: 6511927525611209493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_corners_bimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a215675c2199210800000000000000
+      internalID: 1340123003422321192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_damaged_darkimg
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00b02e52bf4d3aa0800000000000000
+      internalID: -6179695486180478962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_damagedimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0465c26ae867d2b60800000000000000
+      internalID: 7722959291055625792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_dark_corners_aimg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692421cdb0c9621e0800000000000000
+      internalID: -2222917791310003562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_dark_corners_bimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 48
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f3eabde577cde00800000000000000
+      internalID: 1070862060703596303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brown_darkimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1072
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22532f3c525510980800000000000000
+      internalID: -8574478594847132382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_brownimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 944
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84a3090843315b20800000000000000
+      internalID: 3121332401226359951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_blueimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 816
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022c4e224a42dbdf0800000000000000
+      internalID: -162933724136816096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_blueimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 688
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc824b9d89296dac0800000000000000
+      internalID: -3830713247846881075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_darkimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9c83050dbbc7020800000000000000
+      internalID: 2340952409699305935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_detail_aimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf58f65a3d6311d40800000000000000
+      internalID: 5553280098166081019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_detail_bimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97695b0a0643cf8f0800000000000000
+      internalID: -505471468554578311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_greenimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a60401b7aff4660800000000000000
+      internalID: 7372386521489369682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_bolts_redimg
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 48
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee32a8b0af0226d0800000000000000
+      internalID: -3016831617417986331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_boltsimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1072
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f1117c75b759f60800000000000000
+      internalID: 8040468326672047943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_darkimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 944
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c821f1aac5f0e8b0800000000000000
+      internalID: -5124826125298489149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_greenimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 816
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1ecd7b336b46160800000000000000
+      internalID: 7017934452594368961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grey_redimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 688
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59f76a715d79cbe0800000000000000
+      internalID: -1456495215578187430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_greyimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb17ec405fb03e50800000000000000
+      internalID: 6787134990055840730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grid_blueprintimg
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbe38a79782a01f0800000000000000
+      internalID: -1078004658590192678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_grid_paperimg
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94692f16944676bb0800000000000000
+      internalID: -4942871799677151671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_grey_largeimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b29f93dd25b17300800000000000000
+      internalID: 248178662910694073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_grey_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf60e99ee2728830800000000000000
+      internalID: 4071943382205755338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_red_largeimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20199badc7d5f380800000000000000
+      internalID: -8938000607099678675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_red_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3879ebd9fd3aab30800000000000000
+      internalID: 4299316937624221754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_transparent_largeimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4240a098f4b56000800000000000000
+      internalID: 28627952319087182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_diagonal_transparent_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a7a4722b24cbf10800000000000000
+      internalID: 2286776043728173674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_grid_blueprintimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c21308902960110800000000000000
+      internalID: 1226828518008106076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pattern_grid_paperimg
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae4616ef47bcd780800000000000000
+      internalID: -8656842829922414941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blue_borderimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 752
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a856708b65e226360800000000000000
+      internalID: 7161337307462067594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blue_small_borderimg
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9a0382eb99a6e10800000000000000
+      internalID: 2191733210666281432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blue_smallimg
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4a5a6c90dccf920800000000000000
+      internalID: 3025518491557274795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_blueimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 816
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cd7ab2790db7e60800000000000000
+      internalID: 7961186113998543886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_green_borderimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 880
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25295238e73278970800000000000000
+      internalID: 8757007026718347858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_green_small_borderimg
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb567658e67aa670800000000000000
+      internalID: 8550777582771395511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_green_smallimg
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55f6bac8cfae8330800000000000000
+      internalID: 3715100019556545884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_greenimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 944
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f038bd1e6c987f90800000000000000
+      internalID: -6955637627714785034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_red_borderimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1008
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02114a695dabf46c0800000000000000
+      internalID: -4156898504521543392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_red_small_borderimg
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb8eb6b21dfaa140800000000000000
+      internalID: 4731872615323306983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_red_smallimg
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6985a0491a5df5d0800000000000000
+      internalID: -3027164310017832597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_redimg
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 32
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574cbbb7105fcc030800000000000000
+      internalID: 3516454795789190261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_transparent_smallimg
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d0276736ca6ec80800000000000000
+      internalID: -8293752120567263912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_transparentimg
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 432
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb1b023ecd91f760800000000000000
+      internalID: 7489941164222258145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_white_borderimg
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 496
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0696f2aadab711f0800000000000000
+      internalID: -1074184537904867829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_white_small_borderimg
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e02c9e77ba97d00800000000000000
+      internalID: 970995726186319371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_white_smallimg
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaaf167daa868390800000000000000
+      internalID: -7816407625639155032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_whiteimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 688
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822ebc35c712b2600800000000000000
+      internalID: 444485806091657768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_brown_darkimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73635cab4d3b87d0800000000000000
+      internalID: -2915168938569276548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_brownimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27987fcb9129f5c60800000000000000
+      internalID: 7809120918125906290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_damaged_brown_darkimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b855d7ed5ca13040800000000000000
+      internalID: 4625667811607664821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_damaged_brownimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2799fe9ccb8cfc0800000000000000
+      internalID: -3474319537022078229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_grey_darkimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 688
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b4dd8bac17652d0800000000000000
+      internalID: -3290317362248725668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_grey_detailed_greenimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 816
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef74fc6a850c4c10800000000000000
+      internalID: 2039010823383580652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_grey_detailed_redimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 944
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f503565afda2fda0800000000000000
+      internalID: -5912472070082329098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round_greyimg
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1072
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09fecb68cc32e2f0800000000000000
+      internalID: -945126140294530806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_brown_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 24
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459de81540f9e3d30800000000000000
+      internalID: 4413139525766666580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_brownimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 128
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755ba649e17b3d630800000000000000
+      internalID: 3950702640100980055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_grey_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745706c4429eeb6e0800000000000000
+      internalID: -1819760857301617337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_greyimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1072
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95748a153a18126a0800000000000000
+      internalID: -6475752250732427431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_red_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98736925542cbc870800000000000000
+      internalID: 8704264307817723785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_redimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 72
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379f6c1eacf4d3700800000000000000
+      internalID: 521660864634747251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_transparent_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 240
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53473b86d7042b9b0800000000000000
+      internalID: -5065915723466705867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_future_transparentimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1072
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552f35ad9b459ac90800000000000000
+      internalID: -7158096975520075179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_grey_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 336
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82015ae59cd4ffe80800000000000000
+      internalID: -8142704073990926296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_greyimg
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 256
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cd7861109ac0180800000000000000
+      internalID: -9147750920958256051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_transparent_smallimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f7f3fa27ea3e320800000000000000
+      internalID: 2586102418630475538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrollbar_transparentimg
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2948a597225fc160800000000000000
+      internalID: 7047942271826151723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 09ee24e0d8fcf11a6bee83d1a547df9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      banner_classic_curtainimg: 3716564959478114100
+      banner_classic_curtainimg.png: -5523520060994082421
+      banner_hangingimg: -161919483145049904
+      banner_hangingimg.png: 2711487964684696462
+      banner_modernimg: 3531188577234216908
+      banner_modernimg.png: 5851846111924212841
+      button_brown_closeimg: -7916422923778571064
+      button_brown_closeimg.png: -1718971904471747134
+      button_brownimg: -2754962584426161868
+      button_brownimg.png: 4666074826423359770
+      button_grey_closeimg: -1643315147779196883
+      button_grey_closeimg.png: -4864724158857358111
+      button_greyimg: 5704262227281741530
+      button_greyimg.png: 2238556821964443460
+      button_red_closeimg: 8413375207930858830
+      button_red_closeimg.png: -761322191757361834
+      button_redimg: 3718448348071581660
+      button_redimg.png: -6326947334872298278
+      checkbox_beige_checkedimg: -7423756233499625986
+      checkbox_beige_checkedimg.png: 4448690259156378349
+      checkbox_beige_crossimg: 2561722350161200157
+      checkbox_beige_crossimg.png: 3402501196253967745
+      checkbox_beige_emptyimg: 3773288166690946574
+      checkbox_beige_emptyimg.png: 2725596425270907780
+      checkbox_brown_checkedimg: 2813931657658375849
+      checkbox_brown_checkedimg.png: -4351956198489533187
+      checkbox_brown_crossimg: -6399593042492320650
+      checkbox_brown_crossimg.png: -8257929536144614590
+      checkbox_brown_emptyimg: 1305911445040741903
+      checkbox_brown_emptyimg.png: -4944695725105979928
+      checkbox_grey_checkedimg: -9193199646180168943
+      checkbox_grey_checkedimg.png: 5612746034384378234
+      checkbox_grey_crossimg: 386326902785083998
+      checkbox_grey_crossimg.png: -1412667612280237471
+      checkbox_grey_emptyimg: 6119431543070366433
+      checkbox_grey_emptyimg.png: 1604182123366953829
+      hexagon_brown_darkimg: 8119130395601613246
+      hexagon_brown_darkimg.png: -4047089132503539991
+      hexagon_brownimg: -1009136728568442208
+      hexagon_brownimg.png: -3585487836775591655
+      hexagon_damaged_brown_darkimg: -2069619984859414959
+      hexagon_damaged_brown_darkimg.png: -4447050902924754505
+      hexagon_damaged_brownimg: 6358637645604708033
+      hexagon_damaged_brownimg.png: -2082385062806810062
+      hexagon_grey_darkimg: -5063312318240190891
+      hexagon_grey_darkimg.png: -3596949124080530192
+      hexagon_grey_greenimg: 2584895794133879642
+      hexagon_grey_greenimg.png: -969682946650657115
+      hexagon_grey_redimg: -2345383997668368612
+      hexagon_grey_redimg.png: -5738614267555695210
+      hexagon_greyimg: 7500306316039767049
+      hexagon_greyimg.png: -4415899554404416810
+      minimap_arrow_aimg: -7554427156457737847
+      minimap_arrow_aimg.png: 8321337258590029348
+      minimap_arrow_bimg: -1106927726765689865
+      minimap_arrow_bimg.png: 329418839580763104
+      minimap_arrow_cimg: 3602976526314130381
+      minimap_arrow_cimg.png: -68996751430082978
+      minimap_arrow_dimg: 7245057529417960121
+      minimap_arrow_dimg.png: -2286673782492266791
+      minimap_compass_future_eimg: -859784794080082976
+      minimap_compass_future_eimg.png: -6578842299756105085
+      minimap_compass_future_nimg: -8720285343444122860
+      minimap_compass_future_nimg.png: -4709910343711829944
+      minimap_compass_future_simg: -7948960842042250204
+      minimap_compass_future_simg.png: -4041956759930902523
+      minimap_compass_future_wimg: -7859163565101920975
+      minimap_compass_future_wimg.png: -7787864250581117860
+      minimap_compass_toon_eimg: 291039561902091300
+      minimap_compass_toon_eimg.png: 3336048540511746082
+      minimap_compass_toon_nimg: 8020253346447336985
+      minimap_compass_toon_nimg.png: 1959494965569821055
+      minimap_compass_toon_simg: -8352024240220443039
+      minimap_compass_toon_simg.png: 3257195352415957291
+      minimap_compass_toon_wimg: -1667629808660371612
+      minimap_compass_toon_wimg.png: -841166243838315374
+      minimap_icon_exclamation_redimg: 6320133693416560455
+      minimap_icon_exclamation_redimg.png: 5215110915001384607
+      minimap_icon_exclamation_whiteimg: -738379755255685559
+      minimap_icon_exclamation_whiteimg.png: -1309917777678649842
+      minimap_icon_exclamation_yellowimg: -3228747887415983147
+      minimap_icon_exclamation_yellowimg.png: -3130511240954340801
+      minimap_icon_jewel_redimg: -7512389691883773904
+      minimap_icon_jewel_redimg.png: -6689458314732197468
+      minimap_icon_jewel_whiteimg: -8899744085354664667
+      minimap_icon_jewel_whiteimg.png: -7612568825700225310
+      minimap_icon_jewel_yellowimg: -5639805357538633624
+      minimap_icon_jewel_yellowimg.png: -3746150130343615253
+      minimap_icon_star_redimg: 7602164770359779468
+      minimap_icon_star_redimg.png: -555104746258795234
+      minimap_icon_star_whiteimg: 8235402889021310230
+      minimap_icon_star_whiteimg.png: 769267450349879735
+      minimap_icon_star_yellowimg: 9132706393619432898
+      minimap_icon_star_yellowimg.png: 4230986538972961454
+      minimap_ring_brown_detailimg: 4356189687337487990
+      minimap_ring_brown_detailimg.png: 1325942386958683842
+      minimap_ring_brownimg: -1084347219895412925
+      minimap_ring_brownimg.png: 5230212263128069887
+      minimap_ring_grey_detailimg: -491365909051164997
+      minimap_ring_grey_detailimg.png: -3039345794918180652
+      minimap_ring_greyimg: 3987700718768259813
+      minimap_ring_greyimg.png: -4970825152505773435
+      minimap_ring_whiteimg: -2675329605205634272
+      minimap_ring_whiteimg.png: 9082323943945318562
+      panel_border_brown_detailimg: 6331542963033697653
+      panel_border_brown_detailimg.png: 8700869214803600418
+      panel_border_brownimg: 5926519438553030874
+      panel_border_brownimg.png: -4588069323935466368
+      panel_border_grey_detailimg: 904030631723210074
+      panel_border_grey_detailimg.png: -8675763703731122849
+      panel_border_greyimg: 8590859891034237369
+      panel_border_greyimg.png: 8322346442416045383
+      panel_brown_arrows_dark_detailimg: -277555085498909665
+      panel_brown_arrows_dark_detailimg.png: 8142309056239323317
+      panel_brown_arrows_darkimg: -7628071103975371021
+      panel_brown_arrows_darkimg.png: -1820247673049551256
+      panel_brown_arrows_detailimg: 4906282317754954165
+      panel_brown_arrows_detailimg.png: 7635014384271485971
+      panel_brown_arrowsimg: 285369905560893860
+      panel_brown_arrowsimg.png: -4825028151858460644
+      panel_brown_corners_aimg: 6511927525611209493
+      panel_brown_corners_aimg.png: -7416311973783482767
+      panel_brown_corners_bimg: 1340123003422321192
+      panel_brown_corners_bimg.png: -5104209922854311689
+      panel_brown_damaged_darkimg: -6179695486180478962
+      panel_brown_damaged_darkimg.png: 2062952264872705706
+      panel_brown_damagedimg: 7722959291055625792
+      panel_brown_damagedimg.png: 1686242318695395758
+      panel_brown_dark_corners_aimg: -2222917791310003562
+      panel_brown_dark_corners_aimg.png: 3911754784379206566
+      panel_brown_dark_corners_bimg: 1070862060703596303
+      panel_brown_dark_corners_bimg.png: 6848739642068323960
+      panel_brown_darkimg: -8574478594847132382
+      panel_brown_darkimg.png: 4516197829991650481
+      panel_brownimg: 3121332401226359951
+      panel_brownimg.png: -2823957043347589922
+      panel_grey_blueimg: -162933724136816096
+      panel_grey_blueimg.png: -1672825343494425600
+      panel_grey_bolts_blueimg: -3830713247846881075
+      panel_grey_bolts_blueimg.png: -5096005640085775607
+      panel_grey_bolts_darkimg: 2340952409699305935
+      panel_grey_bolts_darkimg.png: -4749724849805288250
+      panel_grey_bolts_detail_aimg: 5553280098166081019
+      panel_grey_bolts_detail_aimg.png: 7886280928454603130
+      panel_grey_bolts_detail_bimg: -505471468554578311
+      panel_grey_bolts_detail_bimg.png: -1566611638811657816
+      panel_grey_bolts_greenimg: 7372386521489369682
+      panel_grey_bolts_greenimg.png: -5702400615897284867
+      panel_grey_bolts_redimg: -3016831617417986331
+      panel_grey_bolts_redimg.png: 8602514619832511276
+      panel_grey_boltsimg: 8040468326672047943
+      panel_grey_boltsimg.png: -2351265706964180351
+      panel_grey_darkimg: -5124826125298489149
+      panel_grey_darkimg.png: 8090818055466230910
+      panel_grey_greenimg: 7017934452594368961
+      panel_grey_greenimg.png: 6138524398711454180
+      panel_grey_redimg: -1456495215578187430
+      panel_grey_redimg.png: -5422917423840746066
+      panel_greyimg: 6787134990055840730
+      panel_greyimg.png: -7512149440292860241
+      panel_grid_blueprintimg: -1078004658590192678
+      panel_grid_blueprintimg.png: -4280088945504954254
+      panel_grid_paperimg: -4942871799677151671
+      panel_grid_paperimg.png: 4541604226323150077
+      pattern_diagonal_grey_largeimg: 248178662910694073
+      pattern_diagonal_grey_largeimg.png: 7164848953059356487
+      pattern_diagonal_grey_smallimg: 4071943382205755338
+      pattern_diagonal_grey_smallimg.png: -7502525285887988584
+      pattern_diagonal_red_largeimg: -8938000607099678675
+      pattern_diagonal_red_largeimg.png: -1416936534519941584
+      pattern_diagonal_red_smallimg: 4299316937624221754
+      pattern_diagonal_red_smallimg.png: 7621723501810250623
+      pattern_diagonal_transparent_largeimg: 28627952319087182
+      pattern_diagonal_transparent_largeimg.png: 7961657581796110125
+      pattern_diagonal_transparent_smallimg: 2286776043728173674
+      pattern_diagonal_transparent_smallimg.png: -1536190359520985140
+      pattern_grid_blueprintimg: 1226828518008106076
+      pattern_grid_blueprintimg.png: 7028485829262242706
+      pattern_grid_paperimg: -8656842829922414941
+      pattern_grid_paperimg.png: 8935435851616789507
+      progress_blue_borderimg: 7161337307462067594
+      progress_blue_borderimg.png: 804595672708817624
+      progress_blue_small_borderimg: 2191733210666281432
+      progress_blue_small_borderimg.png: 6648925624152449207
+      progress_blue_smallimg: 3025518491557274795
+      progress_blue_smallimg.png: -1651004913723071921
+      progress_blueimg: 7961186113998543886
+      progress_blueimg.png: 531535864649498634
+      progress_green_borderimg: 8757007026718347858
+      progress_green_borderimg.png: -7725345935553907388
+      progress_green_small_borderimg: 8550777582771395511
+      progress_green_small_borderimg.png: 6414581016668176342
+      progress_green_smallimg: 3715100019556545884
+      progress_green_smallimg.png: 4836750931879861732
+      progress_greenimg: -6955637627714785034
+      progress_greenimg.png: -1693247916059464260
+      progress_red_borderimg: -4156898504521543392
+      progress_red_borderimg.png: 6817452294166315672
+      progress_red_small_borderimg: 4731872615323306983
+      progress_red_small_borderimg.png: -2842755302541797555
+      progress_red_smallimg: -3027164310017832597
+      progress_red_smallimg.png: 8734107752814872593
+      progress_redimg: 3516454795789190261
+      progress_redimg.png: 8470456205119849320
+      progress_transparent_smallimg: -8293752120567263912
+      progress_transparent_smallimg.png: -1858864682041098686
+      progress_transparentimg: 7489941164222258145
+      progress_transparentimg.png: -6279302272952273929
+      progress_white_borderimg: -1074184537904867829
+      progress_white_borderimg.png: 4246236546806750212
+      progress_white_small_borderimg: 970995726186319371
+      progress_white_small_borderimg.png: -2204421975385074348
+      progress_white_smallimg: -7816407625639155032
+      progress_white_smallimg.png: 5915840011939991721
+      progress_whiteimg: 444485806091657768
+      progress_whiteimg.png: -5363502746679763039
+      round_brown_darkimg: -2915168938569276548
+      round_brown_darkimg.png: 2895483671490391452
+      round_brownimg: 7809120918125906290
+      round_brownimg.png: -4221643920489796155
+      round_damaged_brown_darkimg: 4625667811607664821
+      round_damaged_brown_darkimg.png: -2922832249208892149
+      round_damaged_brownimg: -3474319537022078229
+      round_damaged_brownimg.png: 7388767240334375628
+      round_grey_darkimg: -3290317362248725668
+      round_grey_darkimg.png: -3173820664518567238
+      round_grey_detailed_greenimg: 2039010823383580652
+      round_grey_detailed_greenimg.png: 8251806365409202688
+      round_grey_detailed_redimg: -5912472070082329098
+      round_grey_detailed_redimg.png: 8240448493628033902
+      round_greyimg: -945126140294530806
+      round_greyimg.png: -8795248708131052031
+      scrollbar_brown_smallimg: 4413139525766666580
+      scrollbar_brown_smallimg.png: 4558126734153991809
+      scrollbar_brownimg: 3950702640100980055
+      scrollbar_brownimg.png: 5084349530707848395
+      scrollbar_future_grey_smallimg: -1819760857301617337
+      scrollbar_future_grey_smallimg.png: -6009777376505301443
+      scrollbar_future_greyimg: -6475752250732427431
+      scrollbar_future_greyimg.png: -8911611067777745847
+      scrollbar_future_red_smallimg: 8704264307817723785
+      scrollbar_future_red_smallimg.png: 3053711200360535172
+      scrollbar_future_redimg: 521660864634747251
+      scrollbar_future_redimg.png: -6316837759362256465
+      scrollbar_future_transparent_smallimg: -5065915723466705867
+      scrollbar_future_transparent_smallimg.png: 252974737371513673
+      scrollbar_future_transparentimg: -7158096975520075179
+      scrollbar_future_transparentimg.png: 3691083697216140820
+      scrollbar_grey_smallimg: -8142704073990926296
+      scrollbar_grey_smallimg.png: 5804187789980686775
+      scrollbar_greyimg: -9147750920958256051
+      scrollbar_greyimg.png: -9154092677129486730
+      scrollbar_transparent_smallimg: 2586102418630475538
+      scrollbar_transparent_smallimg.png: -1026245447388709630
+      scrollbar_transparentimg: 7047942271826151723
+      scrollbar_transparentimg.png: -4347310728638353496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: '{"xmlPath":"Assets/Resources/Kenney/spritesheet-double.xml","importDate":"2026-02-23
+    01:47:54"}'
+  assetBundleName: 
+  assetBundleVariant: 

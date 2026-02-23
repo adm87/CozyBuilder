@@ -4,6 +4,7 @@
   <Project Path="Cozy.Builder.Hexagons.csproj" />
   <Project Path="Cozy.Builder.Input.csproj" />
   <Project Path="Cozy.Builder.Utility.csproj" />
+  <Project Path="Cozy.Editor.Kenney.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Cozy.Builder.Messaging.csproj" />
 </Solution>
